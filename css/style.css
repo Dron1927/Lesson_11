@@ -1,0 +1,830 @@
+.wrapper{
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+}
+
+.cars{
+width: 1200px;
+overflow: hidden;
+
+}
+/* ======================================================================= */
+
+.cars__bg::before{
+   position: absolute;
+   content: "";
+   width: 100%;
+   height: 100vh;
+   background: url(../img/bg.jpg) 0 0 / cover no-repeat;
+   top: 0;
+   left: 0;
+   z-index: 2;
+}
+
+.cars__bg::after{ 
+   position: absolute;
+   content: "";
+   width: 100%;
+   height: 50vh;
+   background: url(../img/road.jpg) 0 0 / cover no-repeat;
+   top: 50vh;
+   left: 0;
+   z-index: 3;
+}
+
+.car__red-one::before{
+   content: "";
+   position: absolute;
+   top: 50vh;
+   left: 70%;
+   width: 20%;
+   height: 12vh;
+   background-color: red;
+   border: 2px solid black;
+   border-left: none;
+   border-radius: 0 90% 0 0;
+   z-index: 6;
+}
+
+.car__red-one::after{
+   content: "";
+   position: absolute;
+   top: 50vh;
+   left: 51%;
+   width: 20%;
+   height: 12vh;
+   background-color:red;
+
+   border: 2px solid black;
+
+   border-right: none;
+   border-radius: 40% 0 0 20% ;
+   z-index: 6;
+}
+
+.car__red-two::before{
+   content: "";
+   position: absolute;
+   top: 43vh;
+   left: 65%;
+   width: 10%;
+   height: 10vh;
+   background-color: transparent;
+   border: 5px solid black;
+   border-radius: 0 80% 0 0 ;
+   z-index: 5;
+}
+
+.car__red-two::after{
+   content: "";
+   position: absolute;
+   top: 43vh;
+   left: 55.4%;
+   width: 10%;
+   height: 10vh;
+   background-color: transparent;
+   border: 5px solid black;
+   border-right: none;
+   border-radius: 70% 0 0 0 ;
+   z-index: 5;
+}
+
+.car__red-three::before{
+   content: "";
+   position: absolute;
+   top: 58vh;
+   left: 56%;
+   width: 8vh;
+   height: 8vh;
+   background-color: black;
+   border-radius: 50% ;
+   z-index: 6;
+}
+
+.car__red-three::after{
+   content: "";
+   position: absolute;
+   top: 58vh;
+   left: 79%;
+   width: 8vh;
+   height: 8vh;
+   background-color: black;
+   border-radius: 50% ;
+   z-index: 6;
+}
+
+.car__red-four::before{
+   content: "";
+   position: absolute;
+   top: 50vh;
+   left: 65.1%;
+   width: 3px;
+   height: 12vh;
+   background-color: black;
+   z-index: 7;
+}
+
+.car__red-four::after{
+   content: "";
+   position: absolute;
+   top: 50vh;
+   left: 74.8%;
+   width: 3px;
+   height: 12vh;
+   background-color: black;
+   z-index: 7;
+}
+
+.car__red-five::before{
+   content: "";
+   position: absolute;
+   top: 52vh;
+   left: 66%;
+   width: 2vh;
+   height: 1vh;
+   background-color: black;
+   border-radius: 0 0 30% 30% ;
+   z-index: 7;
+}  
+
+.car__red-five::after{
+   content: "";
+   position: absolute;
+   top: 52vh;
+   left: 63%;
+   width: 2vh;
+   height: 1vh;
+   background-color: black;
+   border-radius: 0 0 30% 30% ;
+   z-index: 7;
+}  
+
+.car__red-six::before{
+   content: "";
+   position: absolute;
+   top: 50vh;
+   left: 55.5%;
+   width: 2px;
+   height: 12vh;
+   background-color: black;
+   z-index: 7;
+}  
+
+.car__red-six::after{
+   content: "";
+   position: absolute;
+   top: 54vh;
+   left: 57%;
+   width: 2vh;
+   height: 1vh;
+   background-color: black;
+   border-radius: 0 0 30% 30% ;
+   z-index: 7;
+}  
+
+.car__red-seven::before{
+position: absolute;
+content: "";
+background: url(../img/icons/smiling-face.svg) 0 0 / cover no-repeat;
+width: 4%;
+height: 6%;
+top: 46vh;
+left: 58%;
+z-index: 4;
+}
+
+.car__red-seven::after{
+   position: absolute;
+   content: "";
+   background: url(../img/icons/smiling-face.svg) 0 0 / cover no-repeat;
+   width: 4%;
+   height: 6%;
+   top: 44vh;
+   left: 67%;
+   z-index: 4;
+}
+
+.car__red-eight::before{
+   content: "";
+   position: absolute;
+   top: 43vh;
+   left: 55.4%;
+   width: 10%;
+   height: 10vh;
+   background-color: #ccc;
+   opacity: 0.6;
+   border: 5px solid transparent;
+   border-right: none;
+   border-radius: 70% 0 0 0 ;
+   z-index: 4;
+}
+
+.car__red-eight::after{
+   content: "";
+   position: absolute;
+   top: 43vh;
+   left: 65%;
+   width: 10%;
+   height: 10vh;
+   background-color: transparent;
+   border: 5px solid black;
+   border-radius: 0 80% 0 0 ;
+   z-index: 4;
+   background-color: #ccc;
+   opacity: 0.6;
+}
+
+/*==========================================================================  */
+
+.car__yellow-one::before{
+   content: "";
+   position: absolute;
+   top: 60vh;
+   left: 49%;
+   width: 20%;
+   height: 12vh;
+   background-color: yellow;
+   border: 2px solid black;
+   border-left: none;
+   border-radius: 0 90% 0 0;
+   z-index: 10;
+}
+
+.car__yellow-one::after{
+   content: "";
+   position: absolute;
+   top: 60vh;
+   left: 30%;
+   width: 20%;
+   height: 12vh;
+   background-color: yellow;
+
+   border: 2px solid black;
+
+   border-right: none;
+   border-radius: 40% 0 0 20% ;
+   z-index: 10;
+}
+
+.car__yellow-two::before{
+   content: "";
+   position: absolute;
+   top: 53vh;
+   left: 45%;
+   width: 10%;
+   height: 10vh;
+   background-color: transparent;
+   border: 5px solid black;
+   border-radius: 0 80% 0 0 ;
+   z-index: 9;
+}
+
+.car__yellow-two::after{
+   content: "";
+   position: absolute;
+   top: 53vh;
+   left: 35%;
+   width: 10%;
+   height: 10vh;
+   background-color: transparent;
+   border: 5px solid black;
+   border-right: none;
+   border-radius: 70% 0 0 0 ;
+   z-index: 9;
+}
+
+.car__yellow-three::before{
+   content: "";
+   position: absolute;
+   top: 68vh;
+   left: 37%;
+   width: 8vh;
+   height: 8vh;
+   background-color: black;
+   border-radius: 50% ;
+   z-index: 12;
+}
+
+.car__yellow-three::after{
+   content: "";
+   position: absolute;
+   top: 68vh;
+   left: 59%;
+   width: 8vh;
+   height: 8vh;
+   background-color: black;
+   border-radius: 50% ;
+   z-index: 12;
+}
+
+.car__yellow-four::before{
+   content: "";
+   position: absolute;
+   top: 60vh;
+   left: 35.1%;
+   width: 3px;
+   height: 12vh;
+   background-color: black;
+   z-index: 12;
+}
+
+.car__yellow-four::after{
+   content: "";
+   position: absolute;
+   top: 60vh;
+   left: 54.6%;
+   width: 3px;
+   height: 12vh;
+   background-color: black;
+   z-index: 12;
+}
+
+.car__yellow-five::before{
+   content: "";
+   position: absolute;
+   top: 62vh;
+   left: 46%;
+   width: 2vh;
+   height: 1vh;
+   background-color: black;
+   border-radius: 0 0 30% 30% ;
+   z-index: 12;
+}  
+
+.car__yellow-five::after{
+   content: "";
+   position: absolute;
+   top: 62vh;
+   left: 43%;
+   width: 2vh;
+   height: 1vh;
+   background-color: black;
+   border-radius: 0 0 30% 30% ;
+   z-index: 12;
+}  
+
+.car__yellow-six::before{
+   content: "";
+   position: absolute;
+   top: 60vh;
+   left: 45.1%;
+   width: 2px;
+   height: 12vh;
+   background-color: black;
+   z-index: 12;
+}  
+
+.car__yellow-six::after{
+   content: "";
+   position: absolute;
+   top: 64vh;
+   left: 37%;
+   width: 2vh;
+   height: 1vh;
+   background-color: black;
+   border-radius: 0 0 30% 30% ;
+   z-index: 12;
+}  
+
+.car__yellow-seven::before{
+position: absolute;
+content: "";
+background: url(../img/icons/smiling-face.svg) 0 0 / cover no-repeat;
+width: 8vh;
+height: 8vh;
+top: 54vh;
+left: 47%;
+z-index: 8;
+}
+
+.car__yellow-seven::after{
+   position: absolute;
+   content: "";
+   background: url(../img/icons/smiling-face.svg) 0 0 / cover no-repeat;
+   width: 8vh;
+   height: 8vh;
+   top: 56vh;
+   left: 36%;
+   z-index: 8;
+}
+
+.car__yellow-eight::before{
+   content: "";
+   position: absolute;
+   top: 53vh;
+   left: 35%;
+   width: 10%;
+   height: 10vh;
+   background-color: #ccc;
+   opacity: 0.4;
+   border: 5px solid transparent;
+   border-right: none;
+   border-radius: 70% 0 0 0 ;
+   z-index: 8;
+}
+
+.car__yellow-eight::after{
+   content: "";
+   position: absolute;
+   top: 53vh;
+   left: 45%;
+   width: 10%;
+   height: 10vh;
+   background-color: transparent;
+   border: 5px solid black;
+   border-radius: 0 80% 0 0 ;
+   z-index: 4;
+   background-color: #ccc;
+   opacity: 0.4;
+  z-index: 8;
+}
+
+/*==========================================================================  */
+
+.car__green-one::before{
+   content: "";
+   position: absolute;
+   top: 70vh;
+   left: 24%;
+   width: 20%;
+   height: 12vh;
+   background-color: green;
+   border: 2px solid black;
+   border-left: none;
+   border-radius: 0 90% 0 0;
+   z-index: 15;
+}
+
+.car__green-one::after{
+   content: "";
+   position: absolute;
+   top: 70vh;
+   left: 5%;
+   width: 20%;
+   height: 12vh;
+   background-color: green;
+
+   border: 2px solid black;
+
+   border-right: none;
+   border-radius: 40% 0 0 20% ;
+   z-index: 15;
+}
+
+.car__green-two::before{
+   content: "";
+   position: absolute;
+   top: 63vh;
+   left: 19%;
+   width: 10%;
+   height: 10vh;
+   background-color: transparent;
+   border: 5px solid black;
+   border-radius: 0 80% 0 0 ;
+   z-index: 9;
+}
+
+.car__green-two::after{
+   content: "";
+   position: absolute;
+   top: 63vh;
+   left: 9%;
+   width: 10%;
+   height: 10vh;
+   background-color: transparent;
+   border: 5px solid black;
+   border-right: none;
+   border-radius: 70% 0 0 0 ;
+   z-index: 11;
+}
+
+.car__green-three::before{
+   content: "";
+   position: absolute;
+   top: 78vh;
+   left: 33%;
+   width: 8vh;
+   height: 8vh;
+   background-color: black;
+   border-radius: 50% ;
+   z-index: 16;
+}
+
+.car__green-three::after{
+   content: "";
+   position: absolute;
+   top: 78vh;
+   left: 10%;
+   width: 8vh;
+   height: 8vh;
+   background-color: black;
+   border-radius: 50% ;
+   z-index: 16;
+}
+
+.car__green-four::before{
+   content: "";
+   position: absolute;
+   top: 70vh;
+   left: 9.1%;
+   width: 3px;
+   height: 12vh;
+   background-color: black;
+   z-index: 16;
+}
+
+.car__green-four::after{
+   content: "";
+   position: absolute;
+   top: 70vh;
+   left: 19%;
+   width: 3px;
+   height: 12vh;
+   background-color: black;
+   z-index: 16;
+}
+
+.car__green-five::before{
+   content: "";
+   position: absolute;
+   top: 72vh;
+   left: 17%;
+   width: 2vh;
+   height: 1vh;
+   background-color: black;
+   border-radius: 0 0 30% 30% ;
+   z-index: 16;
+}  
+
+.car__green-five::after{
+   content: "";
+   position: absolute;
+   top: 72vh;
+   left: 20%;
+   width: 2vh;
+   height: 1vh;
+   background-color: black;
+   border-radius: 0 0 30% 30% ;
+   z-index: 16;
+}  
+
+.car__green-six::before{
+   content: "";
+   position: absolute;
+   top: 70vh;
+   left: 28.8%;
+   width: 2px;
+   height: 12vh;
+   background-color: black;
+   z-index: 16;
+}  
+
+.car__green-six::after{
+   content: "";
+   position: absolute;
+   top: 74vh;
+   left: 11%;
+   width: 2vh;
+   height: 1vh;
+   background-color: black;
+   border-radius: 0 0 30% 30% ;
+   z-index: 16;
+}  
+
+.car__green-seven::before{
+position: absolute;
+content: "";
+background: url(../img/icons/smiling-face.svg) 0 0 / cover no-repeat;
+width: 8vh;
+height: 8vh;
+top: 64vh;
+left: 21%;
+z-index: 8;
+}
+
+.car__green-seven::after{
+   position: absolute;
+   content: "";
+   background: url(../img/icons/smiling-face.svg) 0 0 / cover no-repeat;
+   width: 8vh;
+   height: 8vh;
+   top: 66vh;
+   left: 12%;
+   z-index: 9;
+}
+
+.car__green-eight::before{
+   content: "";
+   position: absolute;
+   top: 63vh;
+   left: 9%;
+   width: 10%;
+   height: 10vh;
+   background-color: #ccc;
+   opacity: 0.3;
+   border: 5px solid transparent;
+   border-right: none;
+   border-radius: 70% 0 0 0 ;
+   z-index: 10;
+}
+
+.car__green-eight::after{
+   content: "";
+   position: absolute;
+   top: 63vh;
+   left: 19%;
+   width: 10%;
+   height: 10vh;
+   background-color: transparent;
+   border: 5px solid black;
+   border-radius: 0 80% 0 0 ;
+   z-index: 4;
+   background-color: #ccc;
+   opacity: 0.3;
+  z-index: 10;
+}
+
+/* ========================================================================= */
+
+
+.car__blue-one::before{
+   content: "";
+   position: absolute;
+   top: 57vh;
+   left: -4%;
+   width: 20%;
+   height: 12vh;
+   background-color: blue;
+   border: 2px solid black;
+   border-left: none;
+   border-radius: 0 90% 0 0;
+   z-index: 8;
+}
+
+.car__blue-one::after{
+   content: "";
+   position: absolute;
+   top: 80vh;
+   right: 0;
+   width: 16%;
+   height: 12vh;
+   background-color: blue;
+
+   border: 2px solid black;
+
+   border-right: none;
+   border-radius: 40% 0 0 20% ;
+   z-index: 15;
+}
+
+.car__blue-two::before{
+   content: "";
+   position: absolute;
+   top: 49vh;
+   left: -6%;
+   width: 10%;
+   height: 10vh;
+   background-color: transparent;
+   border: 5px solid black;
+   border-radius: 0 80% 0 0 ;
+   z-index: 7;
+}
+
+.car__blue-two::after{
+   content: "";
+   position: absolute;
+   top: 73vh;
+   right: 0;
+   width: 10%;
+   height: 10vh;
+   background-color: transparent;
+   border: 5px solid black;
+   border-right: none;
+   border-radius: 70% 0 0 0 ;
+   z-index: 11;
+}
+
+.car__blue-three::before{
+   content: "";
+   position: absolute;
+   top: 65vh;
+   left: 5%;
+   width: 8vh;
+   height: 8vh;
+   background-color: black;
+   border-radius: 50% ;
+   z-index: 8;
+}
+
+.car__blue-three::after{
+   content: "";
+   position: absolute;
+   top: 89vh;
+   right: 5%;
+   width: 8vh;
+   height: 8vh;
+   background-color: black;
+   border-radius: 50% ;
+   z-index: 16;
+}
+
+.car__blue-four::before{
+   content: "";
+   position: absolute;
+   top: 73vh;
+   right: 0;
+   width: 10%;
+   height: 10vh;
+   background-color: #ccc;
+   opacity: 0.2;
+   border: 5px solid transparent;
+   border-right: none;
+   border-radius: 70% 0 0 0 ;
+   z-index: 8;
+}
+
+.car__blue-four::after{
+   content: "";
+   position: absolute;
+   top: 49vh;
+   left: -6%;
+   width: 10%;
+   height: 10vh;
+   background-color: transparent;
+   border: 5px solid black;
+   border-radius: 0 80% 0 0 ;
+   z-index: 4;
+   background-color: #ccc;
+   opacity: 0.7;
+  z-index: 6;
+}
+
+.car__blue-five::before{
+   content: "";
+   position: absolute;
+   top: 57vh;
+   left: 3.8%;
+   width: 2px;
+   height: 12vh;
+   background-color: black;
+   z-index: 16;
+}  
+
+.car__blue-five::after{
+   content: "";
+   position: absolute;
+   top: 82vh;
+   right: 2%;
+   width: 2vh;
+   height: 1vh;
+   background-color: black;
+   border-radius: 0 0 30% 30% ;
+   z-index: 16;
+}  
+
+.car__blue-six::before{
+   content: "";
+   position: absolute;
+   top: 73vh;
+   right: 1%;
+   width: 2px;
+   height: 19vh;
+   background-color: black;
+   z-index: 16;
+}  
+
+.car__blue-six::after{
+   content: "";
+   position: absolute;
+   top: 80vh;
+   right: 9.8%;
+   width: 2px;
+   height: 12vh;
+   background-color: black;
+   z-index: 16;
+}  
+
+.car__blue-seven::before{
+   content: "";
+   position: absolute;
+   top: 84vh;
+   right: 8%;
+   width: 2vh;
+   height: 1vh;
+   background-color: black;
+   border-radius: 0 0 30% 30% ;
+   z-index: 16;
+}
+
+.car__blue-seven::after{
+   position: absolute;
+   content: "";
+   background: url(../img/icons/smiling-face.svg) 0 0 / cover no-repeat;
+   width: 8vh;
+   height: 8vh;
+   top: 76vh;
+   right: 4%;
+   z-index: 8;
+}
+
